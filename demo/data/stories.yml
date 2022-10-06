@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: holidays
+    - action: utter_holidays
+    - intent: provisionperiod
+    - action: utter_provisionperiod
+    - intent: transportpolicy
+    - action: utter_transportpolicy
+    - intent: noticeperiod
+    - action: utter_noticeperiod
+    - intent: earlyrelievepolicy
+    - action: utter_earlyrelievepolicy
+    - intent: earlyreleasepolicy
+    - action: utter_earlyreleasepolicy
+    - intent: cabservice
+    - action: utter_cabservice
+    - intent: Workfromhome
+    - action: utter_Workfromhome
+    - intent: Facility
+    - action: utter_Facility
+    - intent: JoiningBonus
+    - action: utter_JoiningBonus
+    - intent: educationalassistance
+    - action: utter_educationalassistance
+
+
+

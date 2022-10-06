@@ -1,0 +1,66 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - holidays
+  - provisionperiod
+  - transportpolicy
+  - noticeperiod
+  - earlyrelievepolicy
+  - earlyreleasepolicy
+  - cabservice
+  - shifttiming
+  - Workfromhome
+  - Facility
+  - JoiningBonus
+  - educationalassistance
+
+
+responses:
+  utter_greet:
+  - text: "Hey! Welcome to the Human Resource Chatbot of VinTech Solutions. How can I help you?"
+
+  utter_goodbye:
+  - text: "Bye!! Have a good day."
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_holidays:
+  - text: "There are a total 36 leaves in a year that includes 24 earned leaves, 4 sick leaves, 5 casual leaves and 3 educational leaves."
+
+  utter_provisionperiod:
+  - text: "The company provides a provision period of 6 months."
+
+  utter_transportpolicy:
+  - text: "Yes we do provide transport facility to all our employees for all the shifts. Other than that for peoples who travel for office purpose we provide them with transport expenses upto 20k per month."
+
+  utter_noticeperiod:
+  - text: "The company has a policy of a notice period of 3 months"
+
+  utter_earlyrelievepolicy:
+  - text: "No, Employee must complete his/her full Notice period. If Employee gets approval from Manager, then we can release early."
+
+  utter_earlyreleasepolicy:
+  - text: "No, Employee must complete his/her full Notice period. If Employee gets approval from Manager, then we can release early."
+
+  utter_cabservice:
+  - text: "Yes we do provide transport facility to all our employees for all the shifts."
+
+  utter_Workfromhome:
+  - text: "No, until the notice from vertical head."
+
+  utter_Facility:
+  - text: "Medical claim, Transport facility, Recreational Room Facility, 24 * 7 Emergency Doctor Facility, Employee Security"
+
+  utter_JoiningBonus:
+  - text: "Yes (upto 1L)"
+
+  utter_educationalassistance:
+  - text: "Yes, we have policy once manager approves upskilling course."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

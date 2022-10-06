@@ -1,0 +1,172 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - hey there
+    - hey dude
+    - good morning
+    - good afternoon
+    - good evening
+    - goodmorning
+    - goodafternoon
+    - goodevening
+
+- intent: goodbye
+  examples: |
+    - see you
+    - good bye
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: holidays
+  examples: |
+    - how many leaves are there?
+    - how many leaves can I get in a year?
+    - how many leaves can I apply in a year?
+    - leaves offered in a year
+    - leaves
+
+- intent: provisionperiod
+  examples: |
+    - what is the provision period for a employee in the company?
+    - provision period?
+    - Company's provision period
+    - Duration of provision period
+
+- intent: transportpolicy
+  examples: |
+    - Do employee have transport expenses?
+    - What is the transport Policy?
+    - Transport Policy
+
+- intent: noticeperiod
+  examples: |
+    - What is the notice period?
+    - Notice period
+    - duration of Notice period
+
+
+- intent: earlyreleasepolicy
+  examples: |
+    - Is there any early release policy?
+    - Early release policy
+    - Do the company have early release policy?
+    - what is the procedure to get early release?
+
+- intent: cabservice
+  examples: |
+    - Do the company provide cab service?
+    - Cab service
+    - is there any cab service?
+    - is cab service provided by the company?
+    - company's cab service policy
+    
+- intent: shifttiming
+  examples: |
+    - what are the shift timings of the company?
+    - Shift timing
+    - is the shift timings are feasible?
+    - What are shift timing?
+    - shift timing?
+
+- intent: Workfromhome
+  examples: |
+    - Is Work from home allowed?
+    - Work from home
+    - Does the company permits Work from home?
+    - Are there any Work from home policies?
+
+
+- intent: Facility
+  examples: |
+    - What are the facilities that an employee gets?
+    - Facility
+    - facilities
+    - Is the company provides any extra facilities to the employees?
+    - What are the facilities for a new joinee?
+    - What are the facilities for an employee?
+
+- intent: JoiningBonus
+  examples: |
+    - Does the company provide joining bonus?
+    - Joining bonus
+    - is there any joining bonus?
+    - how much is the joining bonus?
+
+- intent: educationalassistance
+  examples: |
+    - Does Company provide any educational assistance?
+    - Educational assistance
+    - What are the educational assistance provided by the company?
+    - Is there any educational assistance from company?
